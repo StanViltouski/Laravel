@@ -38,9 +38,9 @@
 
 ## Обратная связь
 
-[vyts_vyts@mail.ru](mailto:vyts_vyts@mail.ru)
-[Stan Viltouski](https://vk.com/stanviltouski)
+- [vyts_vyts@mail.ru](mailto:vyts_vyts@mail.ru)
+- [Stan Viltouski](https://vk.com/stanviltouski)
 
 ## Copyright
 
-<p align="center">Copyright@2019 [Stan Viltouski](https://vk.com/stanviltouski).</p>
+<p align="center">Copyright@2019 [Stan Viltouski](https://vk.com/stanviltouski)</p>
