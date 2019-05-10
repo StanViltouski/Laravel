@@ -1,0 +1,72 @@
+.contacts {padding: 75px 4.5%;}
+
+.contact_type h4 {
+	margin-bottom: 40px;
+    color: #fff;
+}
+
+.contactType_icons .icons_block {margin-right: 10px;}
+
+.contactType_icons .icons_block:last-child {margin: 0;}
+
+.contacts .icons_block img {margin-bottom: 20px;}
+
+.contact_form {padding: 56px 0 0 0;}
+
+.contact_form h4{
+	margin-bottom: 20px;
+    color: #fff;
+}
+
+.contacts form{width: 320px;}
+
+.contact_form input, .contact_form textarea {
+	display: block;
+	margin: 0 0 20px 5px;
+	max-width: 320px;
+	min-width: 245px;
+	border-radius: 0px;
+	border: none;
+	background-color: transparent;
+}
+
+.contact_form textarea {
+	min-height: 128px;
+	max-height: 128px;
+	border: none;
+	resize: none;
+}
+ 
+.form-control:focus{
+	background-color: transparent;
+	outline: 2px solid #fff;
+	color: #fff;
+}
+
+.contact_form button {
+	padding: 24px 0;
+	width: 185px;
+    font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #213869;
+	border-radius: 0px;
+	border: none;
+	line-height: 1;
+}
+
+
+/*--- media ---*/
+
+
+@media screen and (max-width: 991px) {
+
+    .contact_form {text-align: center;}
+
+    .contacts input, textarea {
+    	text-align: center;
+    	margin: 0 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 575px) {.contacts {padding: 30px 0 0 0;}}

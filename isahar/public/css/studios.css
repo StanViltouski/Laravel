@@ -1,0 +1,79 @@
+.studio  {
+    text-align: center;
+    padding: 75px 3.8%;
+}
+
+.studio .card {
+	border: none;
+	background-color: transparent;
+	text-align: center;
+}
+
+.studiosPhoto_sections .section {
+    float: left;
+    padding: 0 0.65%;
+    margin-bottom: 1.3%;
+    text-align: center;
+}
+
+.studiosPhoto_sections 
+.section:nth-child(1n+2) {float: left;}
+
+.studiosPhoto_sections 
+.section:nth-child(1n+4) {float: right;}
+
+.studiosPhoto_sections 
+.section:nth-child(1n+6) {float: left;}
+
+.studiosPhoto_sections 
+.section:nth-child(1n+8) {float: right;}
+
+.studiosPhoto_sections 
+.section:nth-child(1n+10) {float: left;}
+
+.studiosPhoto_sections 
+.section:nth-child(1n+12) {float: right;}
+
+.studiosPhoto_sections 
+.section:nth-child(1n+14) {float: left;}
+
+.studiosPhoto_sections 
+.section:nth-child(1n+16) {float: right;}
+
+.studiosPhoto_sections 
+.section:nth-child(1n+18) {float: left;}
+
+.studiosPhoto_sections img {width:100%;}
+
+
+/*--- media ---*/
+
+
+@media screen and (max-width: 767px) {
+
+    .studiosPhoto_sections 
+    .section:nth-child(odd) {float: left;}
+
+    .studiosPhoto_sections 
+    .section:nth-child(even) {float: right;}
+
+    .studiosPhoto_sections .section {
+	    margin-bottom: 10px;
+	    padding: 0 5px;
+    }
+
+    .studiosPhoto_sections
+    .section a {pointer-events: none;}
+}
+
+
+@media screen and (max-width: 575px) {
+
+    .studiosPhoto_sections .section {
+	    margin-bottom: 15px;
+	    padding: 0;
+    }
+
+    .studio {padding: 30px 0 0 0;}
+
+}

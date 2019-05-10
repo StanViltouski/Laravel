@@ -1,0 +1,18 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+
+class Order extends Model
+{
+    
+ public $fillable = [
+ 	'name',
+	'telephone',	
+	'adress',	
+	'email',	
+	'description'
+	];
+}
