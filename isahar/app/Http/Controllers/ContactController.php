@@ -24,8 +24,8 @@ class ContactController extends Controller
 
         unset($r['_token']);  //Если мешает токен при отправке формы
         Order::create($r->all());
-
-        return redirect()->back();
+		sleep(2);
+        return redirect()->back()->with('success', 'Ваш запрос отправлен');
 	}
 
 }

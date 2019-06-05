@@ -19,6 +19,10 @@
 
         <div class="contacts_sections row m-0">
 
+        	<div class="preloader">
+        		<div class="preloader_progress"></div>
+        	</div>
+
           @foreach ($objs as $obj)
 
               <div class="contact_type col-lg-6 col-md-12 p-0">
@@ -78,6 +82,10 @@
               	   <h4 class="font-stretch">Сообщение</h4>
               	   <textarea type="text" name="description" class="form-control font-stretch" placeholder="Введите Ваше сообщение"></textarea>
 
+					@if (Session('success'))
+                       <p class="font-stretch text-success mb-3">{{Session('success')}}</p>
+                    @endif
+              	  
                     <button class="btn" type="submit"><h4 class="font-stretch m-0">Отправить</h4></button>
 
               	  </form>

@@ -129,6 +129,7 @@
 <script src="{{asset('js/portfolio.js')}}"></script>
 <script src="{{asset('js/modal.js')}}"></script>
 <script src="{{asset('js/menu.js')}}"></script>
+<script src="{{asset('js/preloader.js')}}"></script>
 
 
 <!-- Modal -->

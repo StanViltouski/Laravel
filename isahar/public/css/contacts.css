@@ -21,6 +21,7 @@
 .contacts form{width: 320px;}
 
 .contact_form input, .contact_form textarea {
+	clear: both;
 	display: block;
 	margin: 0 0 20px 5px;
 	max-width: 320px;
@@ -54,6 +55,47 @@
 	border: none;
 	line-height: 1;
 }
+
+
+/*--- preloader form ---*/
+
+
+.preloader {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	z-index: 2;
+	opacity: 0.8;
+}
+
+.preloader_progress {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 70px;
+	height: 70px;
+	border: 8px solid #fff;
+	border-top-color: #213869;
+	border-radius: 50%;
+	animation:  1s spin infinite linear;
+}
+
+@keyframes spin {
+	from {
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+
+	to {
+		transform: translate(-50%, -50%) rotate(360deg);
+	}
+}
+
+.preloader_show{ display: block; }
 
 
 /*--- media ---*/
