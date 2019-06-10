@@ -1,4 +1,4 @@
-<?
+<?php
 return [
 	'title'=>'Contact',
 	'form_fio'=>'Name, Surname',

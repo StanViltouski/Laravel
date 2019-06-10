@@ -1,4 +1,4 @@
-<?
+<?php
 return [
 	'h1'=>'Site Search Results',
 	'h3'=>'On request ',

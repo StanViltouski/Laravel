@@ -1,4 +1,4 @@
-<?
+<?php
 return [
 	'register'=>'Регистрация',
 	'name'=>'Имя',

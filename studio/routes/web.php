@@ -16,10 +16,10 @@
 Route::group(['middleware' =>['no_user']], function(){ //ограничения для гостей 
     Route::get('poisk', 'PoiskController@getIndex')->middleware('lang');
     Route::get('basket', 'BasketController@getAll')->middleware('lang');
-    Route::get('basket/delete/{id}', 'basketController@getDelete')->middleware('lang');
+    Route::get('basket/delete/{id}', 'BasketController@getDelete')->middleware('lang');
     Route::get('basket/add/{id}', 'BasketController@getAdd')->middleware('lang');
-    Route::get('basket/deleteAll', 'basketController@getDeleteAll')->middleware('lang');
-    Route::post('order', 'Ordercontroller@postIndex')->middleware('lang');
+    Route::get('basket/deleteAll', 'BasketController@getDeleteAll')->middleware('lang');
+    Route::post('order', 'OrderController@postIndex')->middleware('lang');
 });
 
 Route::group(['middleware' =>['user']], function(){ //ограничения для пользователей

@@ -1,4 +1,4 @@
-<?
+<?php
 return [
 	'address_h2'=>'Our address',
 	'address_p'=>'Minsk ul.Shugaeva d.99',

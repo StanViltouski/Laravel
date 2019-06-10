@@ -1,4 +1,4 @@
-<?
+<?php
 return [
 	'basket'=>'Корзина',
 	'ruble'=>'Руб.',
