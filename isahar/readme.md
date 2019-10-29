@@ -1,9 +1,9 @@
-<p align="center"><img src="https://pp.userapi.com/c855032/v855032899/334ff/plxlnmFvjaE.jpg"></p>
+<p align="center"><img src="https://github.com/StanViltouski/Laravel/blob/master/isahar/screenshot.png?raw=true"></p>
 
 
-<h2 align="center"> Сайт фотографа Ирина Сахар</h2>
+<h2 align="center"> Photograph Irina Sahar</h2>
 
-## Используемые технологии:
+## Technologies:
 
 - HTML5/CSS3
 - Bootstrap 4
@@ -14,33 +14,36 @@
 - Laravel 5.8
 
 
-## Реализовано (front-end):
+## Front-end:
 
-- Проектирование индивидуального дизайна после этапа анализа и составления тех. задания;
-- Проектирование и разработка логической/физической структуры базы данных;
-- Адаптивность (от 320px);
-- Мобильная версия;
-- Кроссбраузерная поддержка (Google Chrome 57, Яндекс Браузер 17.1, IOS Safari 10.3, Mozilla Firefox 52, Internet Explorer 11);
-- Галерея-сладер;
-- Адаптивность CSS-Grid для экранов более 1920px;
-- SVG-анимация и анимация меню управляемые CSS;
-- Модальное окно для полноформатных изображений;
-
-## Реализовано (back-end):
-
-- Административная панель с кастомизацией интерфейса;
-- Вывод данных из БД;
-- Валидация и отправка форм через Request;
-- Подтверждение запроса при отправки формы через Providers и SMTP;
-- Вывод SEO-текста всех страниц в базовый шаблон через парсинг URI;
+- Designing an individual design after the stage of analysis and compilation of tech tasks
+- Development of the logical/physical structure of the database
+- Adaptive (> 320px)
+- Mobile version
+- Cross browser support (Google Chrome 57, Yandex Browser 17.1, IOS Safari 10.3, Mozilla Firefox 52, Internet Explorer 11)
+- Gallery Slaider
+- Adaptive CSS-Grid for windows > 1920px
+- SVG-animation and animation menu
+- Modal window for full-size images
 
 
+## Back-end:
 
-## Обратная связь
+- Administrative panel with interface customization
+- Validation and submission of forms (Request)
+- Request confirmation when submitting the form (Providers и SMTP)
+- Conclusion SEO-text of all pages in a basic template through parsing URI
+
+
+## Release
+
+- [Irina Sahar](https://irsahar.000webhostapp.com/)
+
+
+## Feedback
 
 - [vyts_vyts@mail.ru](mailto:vyts_vyts@mail.ru)
 - [Stan Viltouski](https://vk.com/stanviltouski)
 
-## Copyright
 
-<p align="center">Copyright@2019 [Stan Viltouski](https://vk.com/stanviltouski)</p>
+<p align="center">Copyright@2019 Stanislau Viltouski</p>
